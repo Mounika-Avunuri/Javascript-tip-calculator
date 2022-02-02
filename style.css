@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height:100vh;
+    background-color:bisque;
+    font-size: 20px;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:300px;
+    background-color: #fff;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow:1px 1px 13px rgb(0 0 0 / 10%);
+  }
+  h3{
+    background-color:lightblue;
+    padding: 10px 0;
+    font-size:28px;
+    border-radius:5px;
+  }
+  .control{
+    margin: 10px 0;
+  }
+  button#calculate{
+  
+    
+    color:white;
+    background-color: red;
+    border-radius:2px;
+  font-size:12px;
+  
+  }
+  .totalTip{
+    align-content: middle;
+    padding: 10px 10px;
+  }
+  
